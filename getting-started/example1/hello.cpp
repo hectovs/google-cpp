@@ -11,7 +11,7 @@ using namespace std;
 int main() {
   for(int n=1; n<7 ; n++){
     for(int i=1; i<5; i++){
-      std::cout << "Hello World!" <<  setw(17);
+      std::cout << std::left << "Hello World!" <<  setw(17);
     }
     std::endl (std::cout);  
   }
